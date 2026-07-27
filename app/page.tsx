@@ -38,7 +38,7 @@ export default function Home() {
       id: 1,
       role: "assistant",
       content:
-        "¡Hola! Soy Bille, el asistente de Tu Billetera 👋 Puedo ayudarte a registrar movimientos, entender tus resúmenes, usar Telegram y mucho más. ¿Qué querés saber?",
+        "¡Hola! Soy Bille, el asistente de Tu Billetera 👋 Puedo ayudarte a registrar movimientos, entender tus resúmenes, usar Telegram y mucho más. ¿Qué quieres saber?",
     },
   ]);
   const [input, setInput] = useState("");
@@ -92,9 +92,9 @@ export default function Home() {
 
         <div className="brand-copy">
           <span className="eyebrow">ASISTENTE INTELIGENTE</span>
-          <h1>Entendé tu plata. Sin complicarte.</h1>
+          <h1>Entiende tu dinero. Sin complicaciones.</h1>
           <p>
-            Preguntá lo que necesites sobre Tu Billetera y recibí una respuesta
+            Pregunta lo que necesites sobre Tu Billetera y recibe una respuesta
             clara, útil y basada en información real del producto.
           </p>
         </div>
@@ -140,7 +140,7 @@ export default function Home() {
               <div className="message-wrap">
                 <div className="message-bubble">{message.content}</div>
                 <span className="message-time">
-                  {message.role === "assistant" ? "Bille" : "Vos"} · ahora
+                  {message.role === "assistant" ? "Bille" : "Tú"} · ahora
                 </span>
               </div>
             </div>
@@ -180,7 +180,7 @@ export default function Home() {
             <input
               value={input}
               onChange={(event) => setInput(event.target.value)}
-              placeholder="Escribí tu pregunta..."
+              placeholder="Escribe tu pregunta..."
               aria-label="Tu pregunta"
               maxLength={280}
             />

@@ -27,7 +27,7 @@ export const fallbackKnowledge: KnowledgeItem[] = [
     id: "create-transaction",
     title: "Registrar movimientos",
     answer:
-      "Para registrar un movimiento, entrá en Transacciones, elegí ingreso, gasto o inversión y completá monto, categoría, fecha y descripción. También podés indicar medio de pago y si el gasto es reembolsable.",
+      "Para registrar un movimiento, entra en Transacciones, elige ingreso, gasto o inversión y completa el monto, la categoría, la fecha y la descripción. También puedes indicar el medio de pago y si el gasto es reembolsable.",
     keywords: ["registrar", "crear", "cargar", "gasto", "ingreso", "inversion", "movimiento", "transaccion"],
     category: "faq",
   },
@@ -43,7 +43,7 @@ export const fallbackKnowledge: KnowledgeItem[] = [
     id: "categories",
     title: "Categorías",
     answer:
-      "Podés crear, editar y eliminar categorías propias, asignarles un color y separarlas por tipo. No se permite repetir el mismo nombre y tipo; si renombrás una categoría, también se actualizan tus movimientos relacionados.",
+      "Puedes crear, editar y eliminar categorías propias, asignarles un color y separarlas por tipo. No se permite repetir el mismo nombre y tipo; si cambias el nombre de una categoría, también se actualizan tus movimientos relacionados.",
     keywords: ["categoria", "categorias", "color", "duplicada", "renombrar", "editar"],
     category: "faq",
   },
@@ -67,7 +67,7 @@ export const fallbackKnowledge: KnowledgeItem[] = [
     id: "projections",
     title: "Proyecciones",
     answer:
-      "En Proyección podés planear ingresos y gastos futuros, marcarlos como pagados o cobrados y convertirlos en transacciones reales. Los movimientos recurrentes del mes anterior se pueden duplicar al mes elegido.",
+      "En Proyección puedes planear ingresos y gastos futuros, marcarlos como pagados o cobrados y convertirlos en transacciones reales. Los movimientos recurrentes del mes anterior se pueden duplicar en el mes elegido.",
     keywords: ["proyeccion", "futuro", "planear", "recurrente", "pendiente", "convertir", "proyectado"],
     category: "faq",
   },
@@ -75,7 +75,7 @@ export const fallbackKnowledge: KnowledgeItem[] = [
     id: "accounts",
     title: "Cuentas de dinero",
     answer:
-      "Podés crear cuentas para separar banco, efectivo y billeteras. Los ingresos aumentan el saldo de la cuenta elegida; los gastos y las inversiones lo reducen.",
+      "Puedes crear cuentas para separar banco, efectivo y billeteras. Los ingresos aumentan el saldo de la cuenta elegida; los gastos y las inversiones lo reducen.",
     keywords: ["cuenta", "cuentas", "banco", "efectivo", "billetera", "saldo"],
     category: "faq",
   },
@@ -91,7 +91,7 @@ export const fallbackKnowledge: KnowledgeItem[] = [
     id: "telegram",
     title: "Telegram",
     answer:
-      "Sí. Desde Configuración generás un código para vincular tu cuenta con el bot de Telegram. Después podés registrar uno o varios movimientos por chat, con fecha, medio de pago, reembolso y cuotas opcionales.",
+      "Sí. Desde Configuración puedes generar un código para vincular tu cuenta con el bot de Telegram. Después puedes registrar uno o varios movimientos por chat, con fecha, medio de pago, reembolso y cuotas opcionales.",
     keywords: ["telegram", "bot", "chat", "vincular", "codigo", "masiva"],
     category: "faq",
   },
@@ -99,7 +99,7 @@ export const fallbackKnowledge: KnowledgeItem[] = [
     id: "voice",
     title: "Asistente de voz",
     answer:
-      "El asistente de voz del navegador puede responder cuánto te queda para gastar, tu balance operativo, cuánto gastaste o ingresaste, cuánto tenés financiado y cuánto te deben. Depende de que tu navegador admita reconocimiento de voz.",
+      "El asistente de voz del navegador puede responder cuánto te queda para gastar, cuál es tu balance operativo, cuánto gastaste o ingresaste, cuánto tienes financiado y cuánto te deben. Depende de que tu navegador admita reconocimiento de voz.",
     keywords: ["voz", "hablar", "microfono", "reconocimiento", "balance"],
     category: "faq",
   },
@@ -107,7 +107,7 @@ export const fallbackKnowledge: KnowledgeItem[] = [
     id: "reimbursements",
     title: "Reembolsos",
     answer:
-      "Al cargar un gasto podés marcarlo como reembolsable o por cobrar y seguir su estado. El panel distingue los reembolsos pendientes de los ya cobrados.",
+      "Al cargar un gasto puedes marcarlo como reembolsable o por cobrar y seguir su estado. El panel distingue los reembolsos pendientes de los ya cobrados.",
     keywords: ["reembolso", "reembolsable", "cobrar", "devuelven", "pendiente"],
     category: "faq",
   },
@@ -123,7 +123,7 @@ export const fallbackKnowledge: KnowledgeItem[] = [
     id: "delete-policy",
     title: "Eliminación de datos",
     answer:
-      "Podés eliminar transacciones, categorías, proyecciones y cuentas desde sus módulos. Antes de borrar cuentas u obligaciones vinculadas, la app avisa que también se eliminarán sus movimientos relacionados.",
+      "Puedes eliminar transacciones, categorías, proyecciones y cuentas desde sus módulos. Antes de borrar cuentas u obligaciones vinculadas, la aplicación avisa que también se eliminarán sus movimientos relacionados.",
     keywords: ["eliminar", "borrar", "datos", "transaccion", "cuenta", "politica"],
     category: "policy",
   },
@@ -139,7 +139,7 @@ export const fallbackKnowledge: KnowledgeItem[] = [
     id: "sync",
     title: "Sincronización",
     answer:
-      "La aplicación actualiza los datos cada 10 segundos y también cuando recuperás el foco de la ventana. Así aparecen rápidamente los movimientos creados desde Telegram.",
+      "La aplicación actualiza los datos cada 10 segundos y también cuando vuelves a la ventana. Así aparecen rápidamente los movimientos creados desde Telegram.",
     keywords: ["sincroniza", "actualiza", "telegram", "segundos", "refresca", "aparece"],
     category: "faq",
   },
@@ -147,7 +147,7 @@ export const fallbackKnowledge: KnowledgeItem[] = [
     id: "themes",
     title: "Tema visual",
     answer:
-      "Podés alternar entre tema claro y oscuro desde Configuración. La preferencia queda guardada en el navegador.",
+      "Puedes alternar entre el tema claro y el oscuro desde Configuración. La preferencia queda guardada en el navegador.",
     keywords: ["tema", "oscuro", "claro", "apariencia", "configuracion"],
     category: "faq",
   },
@@ -217,5 +217,5 @@ export function findGroundedAnswer(
     return "No tengo información confirmada sobre eso y prefiero no inventarte una respuesta. Puedo ayudarte con el uso de Tu Billetera, precios de la demo, horarios, privacidad, transacciones, categorías, resúmenes, proyecciones, tarjetas, préstamos, Telegram o el asistente de voz.";
   }
 
-  return `${ranked[0].item.answer} ¿Querés que te cuente algo más sobre esta función?`;
+  return `${ranked[0].item.answer} ¿Quieres que te cuente algo más sobre esta función?`;
 }

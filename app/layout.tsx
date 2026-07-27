@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Bille | Asistente de Tu Billetera",
   description:
-    "Consultá cómo usar Tu Billetera y recibí respuestas claras basadas en la información real del producto.",
+    "Consulta cómo usar Tu Billetera y recibe respuestas claras basadas en la información real del producto.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

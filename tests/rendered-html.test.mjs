@@ -31,8 +31,8 @@ test("server-renders the Tu Billetera assistant", async () => {
   const html = await response.text();
   assert.match(html, /<html lang="es">/i);
   assert.match(html, /<title>Bille \| Asistente de Tu Billetera<\/title>/i);
-  assert.match(html, /Entendé tu plata\. Sin complicarte\./);
-  assert.match(html, /Escribí tu pregunta/);
+  assert.match(html, /Entiende tu dinero\. Sin complicaciones\./);
+  assert.match(html, /Escribe tu pregunta/);
   assert.match(html, /¿Cómo registro un gasto\?/);
   assert.match(html, /aria-label="Chat con Bille"/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/);
